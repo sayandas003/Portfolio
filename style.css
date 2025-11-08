@@ -431,17 +431,3 @@ footer {
 footer p {
   text-align: center;
 }
-
-
-.section__pic-container::after {
-    content: "";
-    width: 356px;
-    height: 357px;
-    background-color: transparent;
-    background-image: radial-gradient(at center center, #ffbe0091 0%, #f1f5f663 75%);
-    position: absolute;
-    left: -27%;
-    border-radius: 50%;
-    top: -23%;
-    z-index: -1;
-}
